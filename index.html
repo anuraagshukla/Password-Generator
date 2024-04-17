@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Password Generator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 style="text-align: center">Password Generator</h1>
+            <div class="appBox">
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <input type="text" id="pass" class="form-control" placeholder="Generated Password"
+                            aria-describedby="button-addon2" />
+                        <div class="input-group-append">
+                            <span id="copyCon" class="btn btn-outline-secondary">
+                                <i class="fa-regular fa-copy"></i></span>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+
+                    <label for="formControlRange" style="font-size: 15px; font-weight: 700; margin-left: 0px">Length of
+                        password</label>
+                    <input type="range" class="form-control-range" id="rangeBar" min="0" max="16" />
+                    <br />
+                    <br />
+                    <label for="checkbox1"><input class="form-check-input" type="checkbox" id="checkbox1"
+                            name="checkbox1" />Include Capital Leters(A-Z)</label><br />
+                    <label for="checkbox2"><input class="form-check-input" type="checkbox" id="checkbox2"
+                            name="checkbox2" />Include Small Letters(a-z)</label><br />
+                    <label for="checkbox3"><input class="form-check-input" type="checkbox" id="checkbox3"
+                            name="checkbox3" />
+                        Include Symbols</label><br />
+                    <label for="checkbox4"><input class="form-check-input" type="checkbox" id="checkbox4"
+                            name="checkbox4" />
+                        Include Numbers</label><br /><br />
+
+                    <button id="getPassword" class="btn btn-primary">Generate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/3c736306f6.js" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

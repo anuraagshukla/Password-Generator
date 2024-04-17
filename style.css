@@ -1,0 +1,43 @@
+
+  .box{
+    width: 700px;
+    height: 500px;
+    background-color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    
+    box-shadow: 10px 10px 10px #dad4d6,-10px -10px 10px #dad4d6;
+  }
+
+
+
+  .text1{
+    font-family:  "Diphylleia", serif;
+  }
+  
+  .text2{
+    font-family: "Permanent Marker", cursive;;
+    /* font-weight: bolder; */
+  }
+.button{
+  position: absolute;
+  top:90%;
+  left:40%;
+}
+  
+  .box p{
+    
+    
+    font-size: 35px;
+  }
+
+  .appBox{
+
+    margin: 30px 30px 30px 30px;
+  }
+
+  label{
+    margin-left: 30px;
+  }
